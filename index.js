@@ -1,14 +1,19 @@
 
 // Write your code here
-let num1 = 31;
-let num2 = 2;
-let num3 = 19;
-let num4 = 5;
-let multiply = num1 * num2;
-let random = Math.random()+1;
-let mod = num3%num4;
-let max = Math.max(20, 5,8,7,12,13);
-console.log(multiply);
-console.log(random);
-console.log(mod);
-console.log(max);
+
+function multiply(num1, num2) {
+    return(num1*num2)
+}
+function random() {
+    return (Math.random() + 1);
+}
+function mod(num3,num4) {
+    return (num3 % num4);
+}
+function max() {
+    return Math.max(2,4,6,8,10,12,14,16,18,20);
+}
+console.log(multiply(31,2));
+console.log(random());
+console.log(mod(19,5));
+console.log(max());
